@@ -77,7 +77,7 @@ class TestRobot < MiniTest::Test
   def test_prioritize_tasks_with_todos_returns_max_todo_value
     # arrange
     robot = Robot.new
-    robot.todos = [1,2,3,4,5]
+    robot.todos = [1,2,3,4,5,2]
 
     # act
     expected = 5
